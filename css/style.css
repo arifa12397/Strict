@@ -1,0 +1,329 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Lato', sans-serif;
+}
+
+/*global css code start*/
+.container{
+  width:1140px;
+  margin:0px auto;
+}
+.row{
+  width:100%;
+  float: left;
+}
+.col-lg-12{
+   width: 100%;
+   float: left;
+}
+.col-lg-4{
+   width: 33.33%;
+   float: left;
+}
+.col-lg-6{
+  width: 50%;
+  float: left;
+}
+.text-right{
+  text-align: right;
+}
+/*global css code end*
+
+/*header css code start*/
+.header-section{
+  width: 100%;
+  float:left;
+  background-color: #F6F9F9;
+  padding:20px 0px;
+
+}
+.logo{
+  width: 100%;
+  float:left;
+
+}
+/*header css code end*/
+
+/*banner css code start*/
+.banner{
+  width: 100%;
+  float:left;
+  background: url("../images/bn.png") center top no-repeat;
+  background-size: cover;
+  padding: 180px 0px 80px;
+}
+.inner-banner{
+  width: 100%;
+  float:left;
+  text-align: center;
+}
+.inner-banner h1{
+  font-size: 80px;
+  line-height: 90px;
+  font-weight: 500;
+  margin-top: 120px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.divider{
+width:45%;
+margin:20px auto;
+height:2px;
+background-color: #17A1F4;
+}
+.inner-banner p{
+font-size: 14px;
+line-height: 24px;
+font-weight:300;
+text-transform: capitalize;
+color:#fff;
+margin: 50px auto 120px;
+}
+
+.inner-banner .btn-info{
+text-decoration: none;
+padding: 10px 20px;
+color:#fff;
+border-radius:5px;
+border: 1px solid #17A1F4;
+background: transparent;
+font-size: 16px;
+font-weight: 500;
+transition: 1s;
+}
+
+.inner-banner .btn-info:hover {
+  border: 1px solid #fff;
+  background: #17A1F4;
+  color:#fff;
+
+}
+.inner-banner .arrow {
+  width: 100%;
+  float: left;
+  margin:160px 0px 60px;
+
+}
+
+/*banner css code end*/
+
+/*typo css code start*/
+.typo{
+  width: 100%;
+  float: left;
+  padding: 20px 0px;
+  text-align: center;
+  background-color: #F6F9F9;
+}
+.typo h2{
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 50px;
+  margin:30px 0px;
+  color: #2D3950;
+}
+.typo p{
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 30px;
+  color: #A7A8A8;
+}
+
+/*typo css code end*/
+
+/*feature css start*/
+.feature{
+  width: 100%;
+  float: left;
+  padding: 50px 0px;
+  text-align: center;
+}
+.feature img{
+
+}
+.feature h4{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin:10px 0px;
+  color: #2D3950;
+}
+.feature p{
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #A7A8A8;
+}
+/*feature css code end*/
+
+/*portfolio css code start*/
+.portfolio{
+  width: 100%;
+  float: left;
+  padding: 40px 0px;
+  text-align: center;
+  background-color: #F6F9F9;
+}
+.portfolio h2{
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 50px;
+  margin:8px 0px;
+  color: #2D3950;
+}
+.portfolio p{
+  font-size: 10px;
+  line-height: 20px;
+  margin-bottom: 80px;
+  font-weight: 300;
+  color:#A7A8A8;
+}
+
+.portfolio .inner-portfolio{
+  width: 100%;
+  margin-bottom: 15px;
+  float: left;
+  position: relative;
+}
+.portfolio .inner-portfolio .port-hover{
+  width: 95%;
+  height: 99%;
+  position: absolute;
+  top:0;
+  left:9px;
+  background: rgb(32, 161, 239, .5);
+  display:none;
+}
+.portfolio .inner-portfolio .icons{
+  position: absolute;
+  width: 100%;
+  top:42%;
+  left:0;
+}
+.portfolio .inner-portfolio .icons img{
+  margin-right:5px;
+}
+.portfolio .inner-portfolio:hover .port-hover{
+  display: block;
+}
+
+
+/*portfolio css code end*/
+
+/*contact css code start*/
+.contact{
+  width: 100%;
+  float: left;
+  padding: 40px 0px;
+  background: url("../images/BG.png") center top no-repeat;
+  background-size: cover;
+}
+.contact h2{
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 50px;
+  margin:10px 0px;
+  color: #fff;
+  text-align: center;
+
+}
+.contact p{
+  font-size: 10px;
+  line-height: 20px;
+  margin-bottom: 80px;
+  font-weight: 300;
+  color:#A7A8A8;
+  text-align: center;
+}
+.contact .contact-form{
+  width: 50%;
+  margin-left: 55px;
+}
+.contact .contact-form .form-group{
+  width: 100%;
+  float: left;
+  margin:10px 220px;
+}
+.contact .contact-form .form-group .form-control{
+  width:100%;
+  padding: 10px;
+  color:#999999;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight:500;
+  background: transparent;
+  border:1px solid #999999;
+}
+.contact .contact-form .form-group span{
+  margin-left:8px;
+  font-size: 14px;
+  line-height: 24px;
+  color:#fff;
+}
+.contact .contact-form .form-group .btn-info{
+  padding:10px 30px;
+  color:#fff;
+  font-weight: 600;
+  background-color: transparent;
+  border:1px solid #15A4FA;
+  border-radius: 5px;
+  transition: 1s;
+}
+.contact .contact-form .form-group .btn-info:hover{
+  color:#15A4FA;
+  background-color: #fff;
+  border:1px solid #15A4FA;
+}
+
+
+/*contact css code end*/
+
+/*footer section start*/
+.footer{
+  width: 100%;
+  float: left;
+  padding:20px 0px;
+}
+.footer h4{
+  font-size: 12px;
+  font-weight: 700;
+  color: #BEC0C0;
+  margin:15px 0px 0px;
+}
+ .footer .social-icons{
+   width: 100%;
+   float: left;
+   text-align: right;
+ }
+ .footer .social-icons li{
+  list-style: none;
+  display: inline-block;
+ }
+ .footer .social-icons li a{
+   display: block;
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   margin-left: 3px;
+   text-align: center;
+   background: #15A4FA;
+   color: #fff;
+   font-size: 18px;
+   border-radius: 3px;
+   transition: 1s;
+ }
+ .footer .social-icons li a:hover{
+   background: #fff;
+   color:#15A4FA ;
+   border:1px solid #15A4FA;
+   font-size: 18px;
+   border-radius: 3px;
+ }
+
+
+/*footer css code end*/
