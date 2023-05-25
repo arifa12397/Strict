@@ -1,0 +1,2 @@
+# Strict
+Strict File
